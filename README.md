@@ -23,13 +23,14 @@ npm ci
 ```
 
 3. Start the server with docker
+
   **In windows**
   ```bash
-  npm run start:postgres:win
+  npm run start:postgres
   ```
   **In linux**
   ```bash
-  npm run start:postgres
+  npm run start:postgres:linux
   ```
 
 4. To run the tests :
