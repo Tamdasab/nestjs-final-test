@@ -18,15 +18,15 @@ What things you need to install the software and how to install them.
 1. Clone repository
 
 2. Install dependecies
-```bash
-npm ci
-```
+ ```bash
+ npm ci
+ ```
 
 3. Start the server with docker
 
   **In windows**
   ```bash
-  npm run start:postgres
+  npm run start:postgres:win
   ```
   **In linux**
   ```bash
@@ -34,18 +34,15 @@ npm ci
   ```
 
 4. To run the tests :
- **without docker**
-  ```bash
-  npm run test
-  ```
+
  **with docker on windows**
   ```bash
   npm run test:e2e:postgres:win
   ```
  **With docker on linux**
- ```bash
- npm run test:e2e:postgres
- ```
+  ```bash
+  npm run test:e2e:postgres:linux
+  ```
 
 ## Build
 
