@@ -3,8 +3,8 @@ This project is a NestJS-based API for managing users and tasks. It includes fun
 
 ## Developers
 This project developed by :
-- Sara BEVILACQUA
 - Sabrina TAMDA
+- Sara BEVILACQUA
 
 ## Prerequisites
 What things you need to install the software and how to install them.
